@@ -6,9 +6,11 @@ import 'firebase/analytics';
 import { Button, Container, Typography } from '@mui/material';
 
 
+
 firebase.initializeApp({
     apiKey: "AIzaSyChgBjN9lKS7NNeuxUOBMGGk7H_5I0BYPQ",
-    authDomain: "fir-chat-dcf96.firebaseapp.com",
+//     authDomain: "fir-chat-dcf96.firebaseapp.com",
+    authDomain: "https://chat-app-delta-seven.vercel.app/",
     databaseURL: "https://fir-chat-dcf96-default-rtdb.firebaseio.com",
     projectId: "fir-chat-dcf96",
     storageBucket: "fir-chat-dcf96.appspot.com",
